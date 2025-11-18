@@ -1,0 +1,30 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+.fokep{
+    background-image: url(/img/fokep.png);
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: gray;
+    height: 40vh;
+}
+
+.jobboldal{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.baloldal{ 
+}
+
