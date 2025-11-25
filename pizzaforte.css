@@ -55,3 +55,68 @@ body{
     text-align: center;
 }
 
+.gombok{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.menuk{
+    border: 1px solid white;
+    width: 12vw;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    height: 70vh;
+    width: 70vw;
+    gap: 10px;
+    margin-inline: auto;
+}
+
+.grid div{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#kep1{
+    background-image: url(img/fokep.png);
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+#kep2{
+    background-image: url(img/kep1.png);
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+}
+
+#kep3{
+    background-image: url(img/kep2.png);
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+
+#kep4{
+    background-image: url(img/kep3.png);
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+}
+
+#kep5{
+    margin-top: 10px;
+    background-image: url(img/kep4.png);
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
