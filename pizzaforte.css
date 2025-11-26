@@ -47,12 +47,9 @@ body{
     width: 45%;
 }
 
-.maimenu{
-    height: 30vh;
-}
-
-#cim, #szoveg{
+.cim, #szoveg{
     text-align: center;
+    margin-top: 24px;
 }
 
 .gombok{
@@ -66,6 +63,11 @@ body{
 .menuk{
     border: 1px solid white;
     width: 12vw;
+    margin-bottom: 20px;
+}
+
+#cim2{
+    text-align: center;
 }
 
 .grid{
@@ -119,4 +121,58 @@ body{
     background-image: url(img/kep4.png);
     grid-column: 3 / 4;
     grid-row: 3 / 4;
+}
+
+.specialitasok{
+    background-color: rgb(34, 34, 34);
+} 
+
+.footer {
+    max-width: 1100px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.block h2, 
+.block h3 {
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.nyitvatartas {
+    list-style: none;
+    padding: 0;
+}
+
+.nyitvatartas li {
+    margin: 8px 0;
+    border-bottom: 1px solid #333;
+    padding-bottom: 6px;
+    width: 200px;
+}
+
+ul:nth-last-child(){
+    border-bottom: none;
+}
+
+.nyitvatartas span {
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.footerElemek{
+    text-align: center;
+    color: #888;
+    padding: 20px 0;
+    font-size: 14px;
+    border-top: 1px solid #333;
+    margin-top: 80px;
 }
