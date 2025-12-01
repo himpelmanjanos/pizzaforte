@@ -1,0 +1,28 @@
+@media (max-width: 720px){
+
+    .hamburger{
+        justify-content: end;
+        width: 35px;
+        height: 6px;
+        display: block;
+        padding-right: 10px;
+    }
+    
+    .balEgy{
+        padding-left: 20px;
+    }
+
+    .jobbEgy{
+        display: none;
+    }
+
+    .feherseg img{
+        width: 35px;
+        height: 6px;
+    }
+
+    .navi{
+        padding-top: 10px;
+        padding-bottom: 200000000000000000000000000000000000px;
+    }
+}
