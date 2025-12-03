@@ -23,6 +23,18 @@
 
     .navi{
         padding-top: 10px;
-        padding-bottom: 200000000000000000000000000000000000px;
+    }
+
+    .container{
+        height: 210px;
+    }
+
+    .gombok{
+        margin-bottom: 20px;
+    }
+
+    .footer{
+        width: 80vw;
+        margin-top: 1px;
     }
 }
