@@ -30,7 +30,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 5%;
-    height: 23.5vh;
+    height: 22.5vh;
     gap: 10px;
     width: 90%;
 }
@@ -45,7 +45,6 @@ body{
 .baloldal{
     text-align: right;
     width: 45%;
-    justify-content: baseline;
 }
 
 .cim, #szoveg{
