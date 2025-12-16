@@ -74,12 +74,12 @@
         </div>
     </div>
 <div class="footer">
-    <div class="footerElemek">
-        <h2>SZERETETTEL<br>VÁRUNK</h2>
+    <div class="footerelemek">
+        <h2 style="border-top: 1px solid black;">SZERETETTEL<br>VÁRUNK</h2>
     </div>
 
     <div class="footerElemek">
-        <h3>NYITVA</h3>
+        <h3 style="border-top: none;">NYITVA</h3>
 
         <ul class="nyitvatartas">
             <li><span>Hétfő:</span> zárva</li> 
@@ -103,3 +103,75 @@
 </div>
 </body>
 </html>
+
+
+
+
+
+
+<style>
+    body {
+        background-color: #333;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Hamburger ikon */
+    .hamburger {
+        width: 40px;
+        cursor: pointer;
+        margin: 20px;
+    }
+
+    .hamburger div {
+        height: 6px;
+        background-color: white;
+        margin: 6px 0;
+        border-radius: 4px;
+    }
+
+    /* Lenyló menü */
+    .menu {
+        display: none;
+        background-color: white;
+        width: 150px;
+        margin-left: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+
+    .menu div {
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+        cursor: pointer;
+    }
+
+    .menu div:hover {
+        background-color: #f0f0f0;
+    }
+
+    .menu div:last-child {
+        border-bottom: none;
+    }
+</style>
+
+
+<!-- Hamburger Menü -->
+<div class="hamburger" onclick="toggleMenu()">
+    <div>a</div>
+    <div>a</div>
+    <div>a</div>
+</div>
+
+<!-- Lenyló opciók -->
+<div class="menu" id="menu">
+    <div>Főoldal</div>
+    <div>Profil</div>
+    <div>Kijelentkezés</div>
+</div>
+
+<script>
+    function toggleMenu() {
+        const menu = document.getElementById("menu");
+        menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+</script>

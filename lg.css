@@ -1,12 +1,14 @@
 body{
     color: white;
     background-color: black;
+    font-size: 23px;
 }
 
 .fokep{
-    background-image: url(/img/fokep.png);
+    background-image: url(/img/fokep2.jfif);
+    background-position: center;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     background-size: cover;
 }
@@ -14,6 +16,10 @@ body{
 .navi{
     display: flex;
     justify-content: space-between;
+}
+
+.balEgy{
+    margin-left: 20px;
 }
 
 .jobbEgy{
@@ -47,6 +53,10 @@ body{
     width: 45%;
 }
 
+.cim{
+    margin-top: 20px;
+}
+
 .cim, #szoveg{
     text-align: center;
     margin-top: 24px;
@@ -76,7 +86,7 @@ body{
     grid-template-rows: 1fr 1fr 1fr ;
     height: 70vh;
     width: 70vw;
-    gap: 10px;
+    gap: 30px;
     margin-inline: auto;
 }
 
@@ -171,13 +181,26 @@ ul:nth-last-child(){
     margin-top: 10px;
 }
 
+.footer{
+    font-size: 23px;
+    gap: 20px;
+}
+
 .footerElemek{
     text-align: center;
     color: #888;
     padding: 20px 0;
-    font-size: 14px;
     border-top: 1px solid #333;
     margin-top: 80px;
+}
+
+.footerelemek{
+    text-align: center;
+    color: #888;
+    padding: 20px 0;
+    border-top: 1px solid black;
+    margin-top: 80px;
+    margin-right: 20px;
 }
 
 .hamburger{
