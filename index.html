@@ -14,13 +14,18 @@
         <div class="balEgy">   
             <h1><b>PIZZÉRIA</b></h1>
         </div> 
+
+
         <div class="hamburger">
-            <button>
-                <div class="feherseg"><img src="/img/hambi.png" alt=""></div>
-                <div class="feherseg"><img src="/img/hambi.png" alt=""></div>
-                <div class="feherseg"><img src="/img/hambi.png" alt=""></div>
-            </button>
+            <div><a href="">KEZDŐLAP</a></div>
+            <div><a href="">MENÜ</a></div>
+            <div><a href="">RÓLUNK</a></div>
+            <div><a href="">KAPCSOLAT</a></div>
         </div>
+        
+       
+
+
         <div class="jobbEgy">
             <p>KEZDŐLAP</p>
             <p>/ </p>
@@ -103,75 +108,3 @@
 </div>
 </body>
 </html>
-
-
-
-
-
-
-<style>
-    body {
-        background-color: #333;
-        font-family: Arial, sans-serif;
-    }
-
-    /* Hamburger ikon */
-    .hamburger {
-        width: 40px;
-        cursor: pointer;
-        margin: 20px;
-    }
-
-    .hamburger div {
-        height: 6px;
-        background-color: white;
-        margin: 6px 0;
-        border-radius: 4px;
-    }
-
-    /* Lenyló menü */
-    .menu {
-        display: none;
-        background-color: white;
-        width: 150px;
-        margin-left: 20px;
-        border-radius: 6px;
-        overflow: hidden;
-    }
-
-    .menu div {
-        padding: 12px;
-        border-bottom: 1px solid #ddd;
-        cursor: pointer;
-    }
-
-    .menu div:hover {
-        background-color: #f0f0f0;
-    }
-
-    .menu div:last-child {
-        border-bottom: none;
-    }
-</style>
-
-
-<!-- Hamburger Menü -->
-<div class="hamburger" onclick="toggleMenu()">
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-</div>
-
-<!-- Lenyló opciók -->
-<div class="menu" id="menu">
-    <div>Főoldal</div>
-    <div>Profil</div>
-    <div>Kijelentkezés</div>
-</div>
-
-<script>
-    function toggleMenu() {
-        const menu = document.getElementById("menu");
-        menu.style.display = menu.style.display === "block" ? "none" : "block";
-    }
-</script>
