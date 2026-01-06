@@ -3,21 +3,6 @@
     body{
         font-size: 20px;
     }
-
-    .hamburger{
-        justify-content: end;
-        padding: 10px;
-        border-radius: 5px;
-        display: block;
-        padding-right: 10px;
-        margin-top: 25px;
-        margin-right: 20px;
-    }
-
-    .hamburger div a{
-        color: white;
-        text-decoration: none;
-    }
     
     .balEgy{
         padding-left: 20px;
@@ -27,17 +12,12 @@
         display: none;
     }
 
-    .feherseg img{
-        width: 35px;
-        height: 6px;
-    }
-
     .navi{
         padding-top: 10px;
     }
 
     .container{
-        height: 210px;
+        height: auto;
     }
 
     .gombok{
@@ -47,5 +27,9 @@
     .footer{
         width: 80vw;
         margin-top: 1px;
+    }
+
+    #jobboldal{
+        
     }
 }

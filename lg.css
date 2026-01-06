@@ -28,6 +28,7 @@ body{
     justify-content: flex-end;
     text-align: end;
     align-items: center;
+    gap: 10px;
 }
 
 .container{
@@ -186,12 +187,34 @@ ul:nth-last-child(){
     gap: 20px;
 }
 
+#vasarnap{
+    border-bottom: none;
+}
+
+.webnote{
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #888;
+    border-top: 1px solid #333;
+}
+
+#cirmi{
+    display: block;
+}
+
+#kormos{
+    display: block;
+}
+
 .footerElemek{
     text-align: center;
     color: #888;
     padding: 20px 0;
     border-top: 1px solid #333;
     margin-top: 80px;
+    border-top: none;
 }
 
 .footerelemek{
