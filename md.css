@@ -9,7 +9,19 @@
     }
 
     .jobbEgy{
+        display: block;
+    }
+
+    .per{
         display: none;
+    }
+
+    .nyitvatartas li{
+        width: 15vw;
+    }
+
+    .etelek{
+        width: 20vw;
     }
 
     .navi{
@@ -29,7 +41,13 @@
         margin-top: 1px;
     }
 
-    #jobboldal{
+    .webnote{
+        width: 90vw;
+    }
+
+    .varas{
+        
         
     }
+
 }

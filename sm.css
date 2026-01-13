@@ -3,4 +3,21 @@
     body{
         font-size: 15px;
     }
+
+    .footer{
+        display: block;
+    }
+
+    .gombok{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 100vw;
+    }
+
+    .nyitvatartas{
+        width: 80vw;
+    }
+
 }
