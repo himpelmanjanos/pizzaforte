@@ -71,7 +71,7 @@ body{
     text-align: center;
 }
 
-.menuk{
+.menuk, .menuk2{
     border: 1px solid white;
     width: 12vw;
     margin-bottom: 20px;

@@ -20,4 +20,95 @@
         width: 80vw;
     }
 
+    .grid{
+        display: block;
+        width: 95%;
+    }
+
+    .specialitasok{
+        height: 227vh;
+    }
+
+    #kep1, #kep2, #kep3, #kep4, #kep5{
+        margin-top: 20px;
+    }
+
+    .baloldal{
+        display: block;
+        width: 100%;
+    }
+
+    .container{
+        display: block;
+    }
+
+    .container p{
+        text-align: start;
+    }
+
+    .container h2, .container p{
+        text-align: end;
+    }
+
+    #kep1{
+        background-image: url(img/fokep.png);
+        height: 30vh;
+    }
+
+    #kep2{
+        background-image: url(img/kep2.png);
+        height: 40vh;
+    }
+
+    #kep3{
+        background-image: url(img/kep3.png);
+        height: 40vh;
+    }
+
+    #kep4{
+        background-image: url(img/kep1.png);
+        height: 70vh;
+    }
+
+    #kep5{
+        background-image: url(img/kep4.png);
+        height: 30vh;
+    }
+
+    .gombok{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menuk, .menuk2{
+        width: 50vw;
+        height: 5vh;
+        margin-inline: auto;
+        margin-top: 5px;
+    }
+
+    .menuk2{
+        margin-bottom: 30px;
+    }
+
+    .footerelemek br{
+        display: none;
+    }
+
+    #szoveg{
+        margin-bottom: 20px;
+    }
+
+    .varas{
+        text-align: end;
+    }
+
+    #nyitas{
+        text-align: left;
+    }
+
+    .nyitvatartas li{
+        width: 80vw;
+    }
 }
